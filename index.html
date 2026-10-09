@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dharshini Sridhar · Creative Portfolio</title>
+<meta name="description" content="Portfolio of Dharshini Sridhar — Integrated M.Tech CSE (Data Science) student at VIT Vellore. Software Development, Data Analytics, AI/ML." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<nav class="nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand" data-page="home">
+      <span class="dot" aria-hidden="true"></span>
+      Dharshini Sridhar
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" data-page="home" class="active">Home</a>
+      <a href="#projects" data-page="projects">Projects</a>
+      <a href="#contact" data-page="contact">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ============================================================= -->
+<!-- ============ PAGE: HOME ===================================== -->
+<!-- ============================================================= -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-status">
+            <span class="pulse" aria-hidden="true"></span>
+            Open to internships &amp; collaborations
+          </div>
+          <h1>
+            Dharshini<br />
+            <span class="highlight">Sridhar</span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science &amp; Aspiring Software Developer
+          </p>
+          <p class="hero-desc">
+            I'm an Integrated M.Tech student in Computer Science and Engineering at VIT Vellore — passionate about exploring technology, solving real-world problems, and building meaningful digital experiences.
+          </p>
+          <div class="hero-explore">
+            <span class="mono-dim">Currently exploring</span>
+            <div class="rotate-text" aria-label="Software Development, Data Analytics, AI and ML">
+              <span>
+                Software Development<br />
+                Data Analytics<br />
+                AI &amp; ML<br />
+                Software Development
+              </span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-page="projects">Explore My Work →</a>
+            <a href="#contact" class="btn btn-outline" data-page="contact">Let's Connect</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <canvas id="heroCanvas" width="520" height="520" aria-label="Interactive node network visualisation" role="img"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">01 — About</span>
+      </div>
+      <h2 class="section-title reveal">A little about me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Computer Science student who believes in <strong>learning by doing</strong>. My interests span software development, data analytics, and emerging technologies — especially where technology can address everyday challenges.
+          </p>
+          <p>
+            Through academic projects and independent learning, I'm developing my ability to turn ideas into structured solutions, understand user needs, and communicate technical concepts clearly.
+          </p>
+          <p>
+            I'm looking forward to opportunities where I can learn from experienced professionals, collaborate with a team, and gain practical industry experience.
+          </p>
+        </div>
+        <div class="education-card reveal">
+          <h3>Education</h3>
+          <p class="degree">Integrated M.Tech — Computer Science &amp; Engineering </p>
+          <p class="institution">Vellore Institute of Technology (VIT), Vellore</p>
+          <span class="year">Expected graduation · 2029</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">02 — Skills</span>
+      </div>
+      <h2 class="section-title reveal">Technical skills</h2>
+      <p class="section-desc reveal">Tools and technologies I'm currently learning and building with.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <div class="label">Programming languages</div>
+          <div class="items">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="label">Web development</div>
+          <div class="items">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="label">Database</div>
+          <div class="items">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="label">Tools</div>
+          <div class="items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">DOSBox</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="label">Areas of interest</div>
+          <div class="items">
+            <span class="skill-tag">Data Analytics</span>
+            <span class="skill-tag">Data Warehousing</span>
+            <span class="skill-tag">AI / ML</span>
+            <span class="skill-tag">Software Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section id="featured">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">03 — Selected work</span>
+      </div>
+      <h2 class="section-title reveal">Featured projects</h2>
+      <p class="section-desc reveal">A preview of projects I've been exploring and building.</p>
+
+      <div class="featured-grid">
+        <!-- Card 1 -->
+        <article class="project-card reveal" data-page="projects">
+          <div class="project-card-visual">
+            <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="#00e6ff" stop-opacity="0.8" />
+                  <stop offset="1" stop-color="#a855f7" stop-opacity="0.6" />
+                </linearGradient>
+              </defs>
+              <rect width="400" height="200" fill="#0b111e" />
+              <circle cx="100" cy="100" r="45" fill="none" stroke="url(#g1)" stroke-width="1.5" />
+              <circle cx="200" cy="100" r="55" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.6" />
+              <circle cx="300" cy="100" r="35" fill="none" stroke="url(#g1)" stroke-width="1.5" />
+              <circle cx="100" cy="100" r="4" fill="#00e6ff" />
+              <circle cx="200" cy="100" r="4" fill="#a855f7" />
+              <circle cx="300" cy="100" r="4" fill="#f472b6" />
+              <line x1="100" y1="100" x2="200" y2="100" stroke="url(#g1)" stroke-width="1" opacity="0.5" />
+              <line x1="200" y1="100" x2="300" y2="100" stroke="url(#g1)" stroke-width="1" opacity="0.5" />
+            </svg>
+          </div>
+          <div class="project-card-body">
+            <div class="index">01 — Web Development</div>
+            <h3>Smart Food Tracker</h3>
+            <p>Concept for recording food items, monitoring expiry dates, and encouraging reduced food waste.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card reveal" data-page="projects">
+          <div class="project-card-visual">
+            <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="g2" x1="0" x2="1">
+                  <stop offset="0" stop-color="#a855f7" stop-opacity="0.8" />
+                  <stop offset="1" stop-color="#f472b6" stop-opacity="0.6" />
+                </linearGradient>
+              </defs>
+              <rect width="400" height="200" fill="#0b111e" />
+              <rect x="60" y="60" width="80" height="80" rx="6" fill="none" stroke="url(#g2)" stroke-width="1.5" />
+              <rect x="160" y="50" width="80" height="90" rx="6" fill="none" stroke="url(#g2)" stroke-width="1.5" opacity="0.7" />
+              <rect x="260" y="70" width="80" height="70" rx="6" fill="none" stroke="url(#g2)" stroke-width="1.5" />
+              <circle cx="100" cy="100" r="3" fill="#a855f7" />
+              <circle cx="200" cy="95" r="3" fill="#f472b6" />
+              <circle cx="300" cy="105" r="3" fill="#00e6ff" />
+            </svg>
+          </div>
+          <div class="project-card-body">
+            <div class="index">02 — Web Development</div>
+            <h3>CampusSwap</h3>
+            <p>A campus-focused marketplace concept for students to discover and exchange second-hand essentials.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card reveal" data-page="projects">
+          <div class="project-card-visual">
+            <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="g3" x1="0" x2="1">
+                  <stop offset="0" stop-color="#00e6ff" stop-opacity="0.8" />
+                  <stop offset="1" stop-color="#f472b6" stop-opacity="0.6" />
+                </linearGradient>
+              </defs>
+              <rect width="400" height="200" fill="#0b111e" />
+              <rect x="80" y="130" width="30" height="50" fill="url(#g3)" opacity="0.7" />
+              <rect x="130" y="100" width="30" height="80" fill="url(#g3)" opacity="0.85" />
+              <rect x="180" y="70" width="30" height="110" fill="url(#g3)" />
+              <rect x="230" y="90" width="30" height="90" fill="url(#g3)" opacity="0.85" />
+              <rect x="280" y="115" width="30" height="65" fill="url(#g3)" opacity="0.7" />
+              <line x1="60" y1="180" x2="340" y2="180" stroke="#00e6ff" stroke-width="1" opacity="0.4" />
+            </svg>
+          </div>
+          <div class="project-card-body">
+            <div class="index">03 — Data</div>
+            <h3>Data Warehousing Project</h3>
+            <p>Learning project exploring SQL queries, ETL concepts, and OLAP operations using MySQL and Python.</p>
+            <div class="tags">
+              <span>MySQL</span><span>Python</span><span>SQL</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">04 — Learning</span>
+      </div>
+      <h2 class="section-title reveal">Certifications &amp; learning</h2>
+      <p class="section-desc reveal">Click a card to view the certificate.</p>
+
+      <div class="cert-grid">
+        <a class="cert-card reveal" href="https://drive.google.com/file/d/1X0fuinC7RVMUFc6Kxi2OucT0LBY1WSpl/view" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="cert-issuer">Google</div>
+            <h4>Data Analytics</h4>
+          </div>
+          <span class="cert-link">View certificate →</span>
+        </a>
+
+        <a class="cert-card reveal" href="https://drive.google.com/file/d/1hJaXWA1emQ8BayZCCP_AX064VhSggybJ/view" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="cert-issuer">Google</div>
+            <h4>Artificial Intelligence</h4>
+          </div>
+          <span class="cert-link">View certificate →</span>
+        </a>
+
+        <a class="cert-card reveal" href="https://drive.google.com/file/d/1o178Gsu0kq_8Q4OzHT-Y3Htf1mK2_CDI/view" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="cert-issuer">Google</div>
+            <h4>Machine Learning</h4>
+          </div>
+          <span class="cert-link">View certificate →</span>
+        </a>
+
+        <a class="cert-card reveal" href="https://www.guvi.in/verify-certificate?id=KOP7777c3UY719n335" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="cert-issuer">GUVI</div>
+            <h4>GUVI Certification</h4>
+          </div>
+          <span class="cert-link">Verify certificate →</span>
+        </a>
+
+        <a class="cert-card reveal" href="https://www.theforage.com/completion-certificates/mfxGwGDp6WkQmtmTf/vcKAB5yYAgvemepGQ_mfxGwGDp6WkQmtmTf_69ccf5f2b7cbd1a2ccd87192_1775135170168_completion_certificate.pdf" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="cert-issuer">Forage</div>
+            <h4>Virtual Experience Program</h4>
+          </div>
+          <span class="cert-link">View certificate →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container reveal">
+      <h2>Let's build something together</h2>
+      <p>Have an idea, opportunity, or project in mind? I'm always open to conversations about software development, data analytics, and AI/ML.</p>
+      <a href="#contact" class="btn btn-primary" data-page="contact">Get in touch →</a>
+    </div>
+  </section>
+
+</div>
+
+<!-- ============================================================= -->
+<!-- ============ PAGE: PROJECTS ================================= -->
+<!-- ============================================================= -->
+<div id="page-projects" class="page">
+
+  <section style="padding-top: 10rem;">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">Archive</span>
+      </div>
+      <h1 class="section-title reveal" style="font-size: clamp(2.4rem, 5vw, 4rem);">Projects &amp; case studies</h1>
+      <p class="section-desc reveal">
+        A structured look at projects I have explored — each labelled honestly as a concept, prototype, or learning project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project 01 -->
+  <section style="padding-top: 2rem;">
+    <div class="container">
+      <div class="project-showcase reveal">
+        <div class="project-showcase-visual">
+          <svg viewBox="0 0 500 350" aria-hidden="true">
+            <defs>
+              <linearGradient id="p1g" x1="0" x2="1">
+                <stop offset="0" stop-color="#00e6ff" />
+                <stop offset="1" stop-color="#a855f7" />
+              </linearGradient>
+            </defs>
+            <rect width="500" height="350" fill="transparent" />
+            <rect x="80" y="80" width="340" height="200" rx="10" fill="none" stroke="url(#p1g)" stroke-width="1.5" opacity="0.7" />
+            <rect x="110" y="110" width="120" height="16" rx="4" fill="url(#p1g)" opacity="0.7" />
+            <rect x="110" y="140" width="200" height="10" rx="3" fill="#00e6ff" opacity="0.3" />
+            <rect x="110" y="160" width="260" height="10" rx="3" fill="#00e6ff" opacity="0.2" />
+            <rect x="110" y="190" width="80" height="24" rx="4" fill="url(#p1g)" opacity="0.9" />
+            <rect x="200" y="190" width="80" height="24" rx="4" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.6" />
+            <circle cx="370" cy="120" r="18" fill="none" stroke="#f472b6" stroke-width="1.5" opacity="0.7" />
+            <path d="M362 120 l6 6 l10 -12" fill="none" stroke="#f472b6" stroke-width="1.5" />
+          </svg>
+        </div>
+        <div class="project-showcase-info">
+          <div class="index">01 — Web Development</div>
+          <h2>Smart Food Tracker</h2>
+
+          <div class="block">
+            <div class="label">Problem</div>
+            <p>Food items can be forgotten and expire before being used — especially in shared kitchens and hostels, contributing to unnecessary waste.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Approach</div>
+            <p>A proposed web-based system to record food items, monitor expiry dates, highlight items that need attention, and help users plan consumption.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Technologies</div>
+            <div class="tech-list">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="label">Learning outcomes</div>
+            <p>Form validation · browser storage · status indicators · user-centred design.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Status</div>
+            <span class="project-status concept">Concept</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 02 -->
+  <section style="padding-top: 0;">
+    <div class="container">
+      <div class="project-showcase reverse reveal">
+        <div class="project-showcase-visual">
+          <svg viewBox="0 0 500 350" aria-hidden="true">
+            <defs>
+              <linearGradient id="p2g" x1="0" x2="1">
+                <stop offset="0" stop-color="#a855f7" />
+                <stop offset="1" stop-color="#f472b6" />
+              </linearGradient>
+            </defs>
+            <rect width="500" height="350" fill="transparent" />
+            <rect x="60" y="90" width="130" height="170" rx="8" fill="none" stroke="url(#p2g)" stroke-width="1.5" opacity="0.7" />
+            <rect x="210" y="60" width="130" height="200" rx="8" fill="none" stroke="url(#p2g)" stroke-width="1.5" opacity="0.9" />
+            <rect x="360" y="110" width="90" height="150" rx="8" fill="none" stroke="url(#p2g)" stroke-width="1.5" opacity="0.6" />
+            <circle cx="125" cy="130" r="16" fill="url(#p2g)" opacity="0.5" />
+            <circle cx="275" cy="100" r="16" fill="url(#p2g)" opacity="0.7" />
+            <circle cx="405" cy="150" r="16" fill="url(#p2g)" opacity="0.4" />
+            <rect x="100" y="200" width="50" height="8" rx="3" fill="#a855f7" opacity="0.5" />
+            <rect x="250" y="200" width="50" height="8" rx="3" fill="#f472b6" opacity="0.6" />
+            <rect x="380" y="200" width="50" height="8" rx="3" fill="#00e6ff" opacity="0.5" />
+          </svg>
+        </div>
+        <div class="project-showcase-info">
+          <div class="index">02 — Web Development</div>
+          <h2>CampusSwap</h2>
+
+          <div class="block">
+            <div class="label">Problem</div>
+            <p>Students need a convenient way to discover affordable second-hand books, electronics, bicycles, and hostel essentials within their campus community.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Approach</div>
+            <p>A campus-focused marketplace concept designed to help students discover and exchange pre-owned items, with category-based browsing.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Technologies</div>
+            <div class="tech-list">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="label">Learning outcomes</div>
+            <p>Responsive layouts · category-based browsing · interface design · organising item information.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Status</div>
+            <span class="project-status concept">Concept</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project 03 -->
+  <section style="padding-top: 0;">
+    <div class="container">
+      <div class="project-showcase reveal">
+        <div class="project-showcase-visual">
+          <svg viewBox="0 0 500 350" aria-hidden="true">
+            <defs>
+              <linearGradient id="p3g" x1="0" x2="1">
+                <stop offset="0" stop-color="#00e6ff" />
+                <stop offset="1" stop-color="#f472b6" />
+              </linearGradient>
+            </defs>
+            <rect width="500" height="350" fill="transparent" />
+            <rect x="70" y="240" width="40" height="70" fill="url(#p3g)" opacity="0.7" />
+            <rect x="130" y="190" width="40" height="120" fill="url(#p3g)" opacity="0.85" />
+            <rect x="190" y="140" width="40" height="170" fill="url(#p3g)" />
+            <rect x="250" y="170" width="40" height="140" fill="url(#p3g)" opacity="0.9" />
+            <rect x="310" y="120" width="40" height="190" fill="url(#p3g)" opacity="0.8" />
+            <rect x="370" y="200" width="40" height="110" fill="url(#p3g)" opacity="0.6" />
+            <line x1="50" y1="310" x2="450" y2="310" stroke="#00e6ff" stroke-width="1" opacity="0.5" />
+            <path d="M90 220 Q150 180 200 130 T330 100 T420 160" fill="none" stroke="#f472b6" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 4" />
+          </svg>
+        </div>
+        <div class="project-showcase-info">
+          <div class="index">03 — Data</div>
+          <h2>Portfolio risk analysis</h2>
+
+          <div class="block">
+            <div class="label">Focus</div>
+            <p>A data warehousing learning project focused on structuring data, exploring SQL queries, understanding ETL workflows, and analysing information through OLAP operations.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Approach</div>
+            <p>Structured schemas, SQL query practice, and Python-based explorations of ETL concepts and analytical reporting patterns.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Technologies</div>
+            <div class="tech-list">
+              <span>MySQL</span><span>Python</span><span>SQL</span>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="label">Learning outcomes</div>
+            <p>Data integration · transformations · warehouse queries · analytical reporting.</p>
+          </div>
+
+          <div class="block">
+            <div class="label">Status</div>
+            <span class="project-status learning">Learning project</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container reveal">
+      <h2>Want to know more?</h2>
+      <p>Reach out — I'd love to talk about any of these projects or future opportunities.</p>
+      <a href="#contact" class="btn btn-primary" data-page="contact">Contact me →</a>
+    </div>
+  </section>
+
+</div>
+
+<!-- ============================================================= -->
+<!-- ============ PAGE: CONTACT ================================== -->
+<!-- ============================================================= -->
+<div id="page-contact" class="page">
+
+  <section style="padding-top: 10rem;">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="line"></span>
+        <span class="mono">Contact</span>
+      </div>
+      <h1 class="section-title reveal" style="font-size: clamp(2.4rem, 5vw, 4rem);">Let's connect</h1>
+      <p class="section-desc reveal">
+        I'm open to internship opportunities, collaborative projects, and conversations about software development, data analytics, and AI/ML.
+      </p>
+    </div>
+  </section>
+
+  <section style="padding-top: 1rem;">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Info -->
+        <div class="contact-info reveal">
+          <div class="block">
+            <div class="label">Email</div>
+            <a href="mailto:dharshini.sridhar36@gmail.com">dharshini.sridhar36@gmail.com</a>
+          </div>
+          <div class="block">
+            <div class="label">Phone</div>
+            <a href="tel:+918825013399">+91 88250 13399</a>
+          </div>
+          <div class="block">
+            <div class="label">LinkedIn</div>
+            <a href="https://www.linkedin.com/in/dharshini-s-2a2027400/" target="_blank" rel="noopener noreferrer">linkedin.com/in/dharshini-s</a>
+          </div>
+          <div class="block">
+            <div class="label">Location</div>
+            <span>Vellore, Tamil Nadu, India</span>
+          </div>
+
+          <p style="margin-top: 2.5rem; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.8;">
+            Have an idea, opportunity, or project in mind? Let's connect and explore what we can build together.
+          </p>
+        </div>
+
+        <!-- Form -->
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject / topic</label>
+            <input type="text" id="subject" name="subject" required placeholder="Internship, collaboration, project…" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell me a bit about your idea or opportunity…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            Open email draft →
+          </button>
+          <p class="form-note">
+            This form does <strong>not</strong> send messages directly from the website. It validates your input and opens a prefilled email draft in your default mail client addressed to
+            <a href="mailto:dharshini.sridhar36@gmail.com">dharshini.sridhar36@gmail.com</a>.
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container reveal">
+      <h2>Looking forward to hearing from you</h2>
+      <p>Whether it's an internship, a project collaboration, or just a conversation about tech — my inbox is open.</p>
+      <a href="mailto:dharshini.sridhar36@gmail.com" class="btn btn-primary">Email me directly →</a>
+    </div>
+  </section>
+
+</div>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="links">
+      <a href="mailto:dharshini.sridhar36@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/dharshini-s-2a2027400/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#home" data-page="home">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
